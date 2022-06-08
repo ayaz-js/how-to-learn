@@ -85,7 +85,7 @@
 /* Description styles */
 
 .description {
-  margin-block: 100px;
+  padding: 100px 0 0;
 }
 
 .two-colums {
@@ -122,6 +122,65 @@
 
 .two-colums__span-accent {
   font-weight: 600;
+}
+
+/* Digits styles */
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.section-title,
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+}
+
+.section-title {
+  margin: 0 0 20px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.section-subtitle {
+  margin: 0;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.table {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 1100px;
+  padding: 0;
+}
+
+.table__cell {
+  width: 250px;
+  margin: 60px 0 0;
+  list-style: none;
+}
+
+.table__heading {
+  margin: 0px 0px 20px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 0px 0px 20px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.table__text:last-child {
+  margin: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
