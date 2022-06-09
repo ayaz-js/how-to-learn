@@ -16,6 +16,8 @@
 /* Header styles */
 
 .header {
+  display: flex;
+  align-items: center;
   position: relative;
   background-color: #f2f2f2;
   height: 100vh;
@@ -25,20 +27,17 @@
   /* выше установили ограничения для секции */
 }
 
-.header__flex {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
   width: 228px;
-  height: 32px;
 }
 
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
+  background-image: url('../images/logo_place_header.svg');
+  background-repeat: no-repeat;
+  height: 32px;
   z-index: 9999;
 }
 
@@ -92,14 +91,14 @@
   padding: 100px 0 0;
 }
 
-.two-colums {
+.two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: auto;
 }
 
-.two-colums__brief {
+.two-columns__brief {
   margin: 0;
   font-size: 18px;
   font-weight: normal;
@@ -108,23 +107,23 @@
   color: #2f80ed;
 }
 
-.two-colums__main-text {
+.two-columns__main-text {
   min-width: 784px;
   width: 80%;
 }
 
-.two-colums__paragraph,
-.two-colums__span-accent {
+.two-columns__paragraph,
+.two-columns__span-accent {
   font-size: 24px;
   line-height: 34px;
   margin: 30px 0px 0px 0px;
 }
 
-.two-colums__paragraph:nth-of-type(1) {
+.two-columns__paragraph:nth-of-type(1) {
   margin: 0;
 }
 
-.two-colums__span-accent {
+.two-columns__span-accent {
   font-weight: 600;
 }
 
@@ -230,6 +229,8 @@
   position: absolute;
   left: 0;
   bottom: 0;
+  background-image: url('../images/feynman.png');
+  background-repeat: no-repeat;
   width: 867px;
   height: 637px;
   z-index: -1;
@@ -268,6 +269,8 @@
   position: absolute;
   top: 0;
   right: -210px;
+  background-image: url('../images/kaufman-triangle.svg');
+  background-repeat: no-repeat;
   width: 877px;
   height: 877px;
   z-index: 1;
@@ -288,7 +291,7 @@
   width: 90%;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -302,7 +305,7 @@
   color: #fff;
 }
 
-.footer__heading {
+.footer__column-heading {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
@@ -310,7 +313,7 @@
   color: #fff;
 }
 
-.footer__columns-links {
+.footer__column-links {
   margin: 20px 0 16px;
   padding: 0;
   list-style: none;
@@ -320,7 +323,7 @@
   margin-right: 10px;
 }
 
-.footer__colums_link {
+.footer__column_link {
   font-size: 18px;
   line-height: 30px;
   color: #fff;
@@ -328,5 +331,7 @@
 }
 
 .logo_place_footer {
+  background-image: url('../images/logo_place_footer.svg');
+  background-repeat: no-repeat;
   height: 32px;
 }
