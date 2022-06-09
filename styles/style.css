@@ -314,7 +314,10 @@
   margin: 20px 0 16px;
   padding: 0;
   list-style: none;
+}
 
+.footer__social_icon {
+  margin-right: 10px;
 }
 
 .footer__colums_link {
