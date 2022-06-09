@@ -291,10 +291,13 @@
   width: 90%;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.footer__column_content_copyright {
   flex-basis: 711px;
 }
 
