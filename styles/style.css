@@ -9,6 +9,10 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.page * {
+  box-sizing: border-box;
+}
+
 /* Header styles */
 
 .header {
@@ -231,7 +235,7 @@
   z-index: -1;
 }
 
-/* Kaufman  styles*/
+/* Kaufman styles*/
 
 .kaufman {
   position: relative;
@@ -267,4 +271,59 @@
   width: 877px;
   height: 877px;
   z-index: 1;
+}
+
+/* Footer styles */
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  padding: 60px 0 40px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footer__columns_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__author {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+  color: #fff;
+}
+
+.footer__heading {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0;
+  color: #fff;
+}
+
+.footer__columns-links {
+  margin: 20px 0 16px;
+  padding: 0;
+  list-style: none;
+
+}
+
+.footer__colums_link {
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo_place_footer {
+  height: 35px;
 }
