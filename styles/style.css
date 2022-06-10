@@ -43,7 +43,7 @@
 
 .header__title {
   font-size: 102px;
-  font-weight: bold;
+  font-weight: 700;
   width: 730px;
   margin: 0 0 0 64px;
   line-height: 96px;
@@ -145,7 +145,7 @@
 .section-title {
   margin: 0 0 20px;
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.15;
 }
 
@@ -174,7 +174,7 @@
   margin: 0 0 20px;
   font-size: 24px;
   line-height: 1.15;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .table__text {
@@ -205,7 +205,7 @@
 .feynman__title {
   font-size: 120px;
   line-height: 1.15;
-  font-weight: 600;
+  font-weight: 700;
   width: 648px;
   text-align: center;
   padding-top: 100px;
@@ -305,7 +305,7 @@
 
 .footer__column-heading {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 30px;
   margin: 0;
   color: #fff;
