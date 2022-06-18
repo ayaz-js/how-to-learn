@@ -29,6 +29,7 @@
 
 .logo {
   width: 228px;
+  height: 32px;
 }
 
 .logo_place_header {
@@ -37,7 +38,6 @@
   left: 64px;
   background-image: url('../images/logo_place_header.svg');
   background-repeat: no-repeat;
-  height: 32px;
   z-index: 9999;
 }
 
@@ -332,5 +332,4 @@
 .logo_place_footer {
   background-image: url('../images/logo_place_footer.svg');
   background-repeat: no-repeat;
-  height: 32px;
 }
