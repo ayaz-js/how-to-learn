@@ -92,14 +92,17 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
-        </div>
+        <ul class="video__iframes">
+          <li> <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </li>
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </li>
+        </ul>
       </section>
 
       <!-- Oakley -->
@@ -215,14 +218,15 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир - школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
-            миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
-            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
+            всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
+            повсюду
+            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="images/khan-book.jpg" alt="Обложка книги, Весь мир - школа, Салман Хан">
-            <a href="#" class="khan__buy-link hover-link">Купить книгу &xrarr;</a>
+            <a href="#" target="_blank" class="khan__buy-link hover-link">Купить книгу &xrarr;</a>
           </div>
         </div>
       </section>
@@ -340,22 +344,22 @@
         <!-- Logo zone -->
         <ul class="resources__logo-zone">
           <li>
-            <a href="#" class="resources__link">
+            <a href="#" target="_blank" class="resources__link">
               <img class="resources__logo" src="images/logo/resources-arzamas.svg" alt="Логитип: Arzamas">
             </a>
           </li>
           <li>
-            <a href="#" class="resources__link">
+            <a href="#" target="_blank" class="resources__link">
               <img class="resources__logo" src="images/logo/resources-n1.svg" alt="Логитип: N1">
             </a>
           </li>
           <li>
-            <a href="#" class="resources__link">
+            <a href="#" target="_blank" class="resources__link">
               <img class="resources__logo" src="images/logo/resources-strelka.svg" alt="Логитип: Стрелка">
             </a>
           </li>
           <li>
-            <a href="#" class="resources__link">
+            <a href="#" target="_blank" class="resources__link">
               <img class="resources__logo" src="images/logo/resources-polka.svg" alt="Логитип: Полка">
             </a>
           </li>
@@ -396,26 +400,28 @@
         <!-- Social links -->
         <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <ul class="footer__column-links">
-            <li>
-              <a href="#" class="footer__column-link hover-link">
-                <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="Фейсбук">
-                Facebook
-              </a>
-            </li>
-            <li>
-              <a href="#" class="footer__column-link hover-link">
-                <img class="footer__social-icon" src="images/vk_color_white.svg" alt="Вконтакте">
-                Вконтакте
-              </a>
-            </li>
-            <li>
-              <a href="#" class="footer__column-link hover-link">
-                <img class="footer__social-icon" src="images/instagram_color_white.svg" alt="Инстаграм">
-                Instagram
-              </a>
-            </li>
-          </ul>
+          <nav class="footer__column-nav">
+            <ul class="footer__column-links">
+              <li>
+                <a href="#" target="_blank" class="footer__column-link hover-link">
+                  <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="Фейсбук">
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="footer__column-link hover-link">
+                  <img class="footer__social-icon" src="images/vk_color_white.svg" alt="Вконтакте">
+                  Вконтакте
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="footer__column-link hover-link">
+                  <img class="footer__social-icon" src="images/instagram_color_white.svg" alt="Инстаграм">
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
 
       </div>
